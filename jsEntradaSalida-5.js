@@ -4,9 +4,9 @@ function mostrar()
 {	var nombre;
   var edad;
 
-nombre = document.getElementById("elNombre").value = dato ;
-edad = document.getElementById("laEdad").value = dato;
-alert("susNombres" + nombre + "su edad es" + edad);
+nombre = document.getElementById("elNombre").value;
+edad = document.getElementById("laEdad").value;
+alert(" su nombre es " + nombre + " y su edad es " + edad);
 
 
 
